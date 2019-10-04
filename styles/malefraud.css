@@ -1,0 +1,8 @@
+@font-face {
+    font-family: "df";
+    src: url("https://home.blrocky.com/fonts/DoubleFeature20.ttf") format("truetype");
+}
+
+.df {
+    font-family: "df";
+}
