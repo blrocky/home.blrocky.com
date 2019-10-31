@@ -1,0 +1,10 @@
+.logo {
+    border: none;
+    height: 175px;
+    left: 25px;
+    opacity: 1.00;
+    position: absolute;
+    top: 20px;
+    width: 180px;
+    z-index: 1;
+}
