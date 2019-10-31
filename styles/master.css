@@ -38,3 +38,12 @@
     padding-top: 0pt;
     text-align: center;
 }
+
+.header-pre-link {
+    height: 45px;
+    left: 311px;
+    position: absolute;
+    top: 130px;
+    width: 110px;
+    z-index: 1;
+}
