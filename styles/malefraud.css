@@ -6,3 +6,17 @@
 .df {
     font-family: "df";
 }
+
+		body {
+			background: #000000;
+			topmargin: 0;
+			leftmargin: 0;
+			padding: 200px;
+			font-family: sans-serif;
+		}
+
+		.content {
+			max-width: 800px;
+			margin: auto;
+		
+		}
