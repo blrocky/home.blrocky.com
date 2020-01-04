@@ -41,7 +41,7 @@
 		}
 		img.logo
 		{
-			border: none; height: 175px; left: 25px; opacity: 1.00; position: absolute; top: 20px; width: 180px; z-index: 1;
+			border: none;  height: 175px; left: 25px; opacity: 1.00; position: sticky; top: 20px; width: 180px; z-index: 1;
 		}
 		img.graphic_textbox_style_default
 		{
@@ -52,7 +52,7 @@
 		}
 		img.top_head
 		{
-			left: 250px;top: 30px; width: 550px; z-index: 1;
+			left: 250px; position:fixed; width: 550px; z-index: 1;
 		}
 		a.header
 		{
