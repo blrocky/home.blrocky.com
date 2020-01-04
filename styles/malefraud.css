@@ -27,6 +27,9 @@
 			margin: auto;
 		
 		}
+		a{
+			text-decoration: none;
+		}
 		a:link
 		{
 			color: red;
@@ -40,7 +43,7 @@
 		{
 			border: none; height: 175px; left: 25px; opacity: 1.00; position: absolute; top: 20px; width: 180px; z-index: 1;
 		}
-		img.header_box
+		img.graphic_textbox_style_default
 		{
 			height: 25px;
 			position: absolute;
@@ -57,21 +60,36 @@
 			font-size: 16px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 23px;
 
 		}
-		p.fb
+		
+		p.fb-event
 		{
 			font-family: "df";
 			color: blue;
 			position: relative;
-			left: 1rem;
-			top: 1rem;
+			left: 250px;
+			top: -7rem;
+			font-size: 2rem;
+			line-height: 2.1rem;
 			
 		}
 		p.insta
 		{
 			font-family: "df";
 			color: violet;
-			font-size: 6rem;
+			font-size: 5rem;
+			line-height: 5rem;
 			
+		}
+		p.fb
+		{
+			font-family: "df";
+			color: blue;
+			position: absolute;
+			
+			font-size: 5rem;
+			line-height: 5rem;
+			
+
 		}
 
 
