@@ -40,4 +40,38 @@
 		{
 			border: none; height: 175px; left: 25px; opacity: 1.00; position: absolute; top: 20px; width: 180px; z-index: 1;
 		}
+		img.header_box
+		{
+			height: 25px;
+			position: absolute;
+			z-index: 1;
+
+		}
+		img.top_head
+		{
+			left: 250px;top: 30px; width: 550px; z-index: 1;
+		}
+		a.header
+		{
+			font-family: 'Helvetica-Bold', 'Helvetica', 'Arial', 'sans-serif'; 
+			font-size: 16px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 23px;
+
+		}
+		p.fb
+		{
+			font-family: "df";
+			color: blue;
+			position: relative;
+			left: 1rem;
+			top: 1rem;
+			
+		}
+		p.insta
+		{
+			font-family: "df";
+			color: violet;
+			font-size: 6rem;
+			
+		}
+
 
