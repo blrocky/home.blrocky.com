@@ -115,4 +115,8 @@
 			
 
 		}
-
+div.graphic_textbox_layout_style_default
+{
+	text-color: white;
+font-family: 'Helvetica-Bold'; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 23px; opacity: 1.00; text-transform: none; 
+}
