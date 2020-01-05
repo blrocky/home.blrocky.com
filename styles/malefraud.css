@@ -35,6 +35,8 @@
 		}
 		a{
 			text-decoration: none;
+			font-family: "os";
+			font-weight: "bold";
 		}
 		a:link
 		{
@@ -49,16 +51,18 @@
 		{
 			border: none; height: 175px; left: 25px; opacity: 1.00; position: absolute; top:20px; width: 180px; z-index: 1;
 		}
-		img.graphic_textbox_style_default
+		a.header
 		{
-			height: 25px;
-			position: absolute;
-			z-index: 1;
-
+			font-family: 'Helvetica-Bold', 'Helvetica', 'Arial', 'sans-serif'; font-size: 15px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 23px; opacity: 1.00; text-transform: none; 
 		}
+	
 		img.top_head
 		{
 			left: 250px;top: 0px; width: 550px; z-index: 1;
+		}
+		p
+		{
+			font-family: "os";
 		}
 		p.header
 		{
@@ -69,6 +73,10 @@
             top:-11rem;
             left: 3rem;
             z-index: 0;
+		}
+		div.paragraph-Body
+		{
+			line-height: 16px; margin-bottom: 0px; margin-top: 0px; padding-bottom: 0pt; padding-top: 0pt; text-align: center; 
 		}
         p.fun
 
@@ -115,4 +123,10 @@
 			
 
 		}
+img.ticket
+{
+	width:200px;
+	height:100px;
+	
 
+}
