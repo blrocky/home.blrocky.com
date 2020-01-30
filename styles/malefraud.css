@@ -6,12 +6,26 @@
 .df {
     font-family: "df";
 }
-.fix-1
+p.head1
 {
-	top:-13rem;}
-.fix-2
+			font-family: "df";
+            font-size: 1.8rem;
+            color: red;
+            position: relative;
+            top:-13rem;
+            left: 3rem;
+            z-index: 0;
+		}
+p.fun1
 {
-	top:-15rem;}
+	font-family: "os";
+             font-size:1.3rem;
+             color: white;
+             position: relative;
+            top:-15rem;
+            left: 8.5rem;
+            z-index: 0;
+}
 @font-face {
 	font-family: "CS";
 	src: url("https://home.blrocky.com/fonts/Can-stamp.ttf") format("truetype")
