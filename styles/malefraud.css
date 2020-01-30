@@ -6,6 +6,12 @@
 .df {
     font-family: "df";
 }
+.fix-1
+{
+	top:-13rem;}
+.fix-2
+{
+	top:-15rem;}
 @font-face {
 	font-family: "CS";
 	src: url("https://home.blrocky.com/fonts/Can-stamp.ttf") format("truetype")
