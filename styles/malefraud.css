@@ -150,3 +150,12 @@ img.ticket
 	
 
 }
+@font-face {
+    font-family: "blood";
+    src: url("https://mobile.blrocky.com/fonts/BLOODY.ttf") format("truetype");
+}
+h2.covid-19
+{
+	font-family: blood;
+	color:#a5d64b;
+}
