@@ -1,0 +1,65 @@
+<!doctype html>
+<html lang="en">
+  <head>
+   <meta http-equiv="refresh" content="0;url=http://home.blrocky.com/" />
+   <script>
+function includeHTML() {
+  var z, i, elmnt, file, xhttp;
+  /*loop through a collection of all HTML elements:*/
+  z = document.getElementsByTagName("*");
+  for (i = 0; i < z.length; i++) {
+    elmnt = z[i];
+    /*search for elements with a certain atrribute:*/
+    file = elmnt.getAttribute("include-html");
+    if (file) {
+      /*make an HTTP request using the attribute value as the file name:*/
+      xhttp = new XMLHttpRequest();
+      xhttp.onreadystatechange = function() {
+        if (this.readyState == 4) {
+          if (this.status == 200) {elmnt.innerHTML = this.responseText;}
+          if (this.status == 404) {elmnt.innerHTML = "Click to enter site";}
+          /*remove the attribute, and call this function once more:*/
+          elmnt.removeAttribute("include-html");
+          includeHTML();
+        }
+      }      
+      xhttp.open("GET", file, true);
+      xhttp.send();
+      /*exit the function:*/
+      return;
+    }
+  }
+};
+     function myFunction() {
+  alert("Your browser seems to have blocked our redirect click the link on screen to enter site");
+}
+</script>
+    <title>The Rocky Horror Picture Show With Live Cast Barely Legal!</title>
+    <meta name="description" content="See Rocky Horror in the San Francisco Bay Area with live cast Barely Legal.">
+	<meta name="author" content="BL Rocky">
+    <link rel="shortcut icon" href="https://home.blrocky.com/images/Logo_transparent.png" type="image/x-icon">
+  <style>
+    div{
+  background: #black;
+  position: fixed;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  top: 0;
+}
+    </style>
+   
+  </head>
+ 
+  <body onload="myFunction()">
+    
+     <a href="https://home.blrocky.com" target="_self" title="Click to Enter site"><div include-html="https://home.blrocky.com/splash.html">
+       
+       </div>
+       
+    </a>
+    <script>
+includeHTML();
+</script>
+  </body>
+</html>
