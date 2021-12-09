@@ -165,7 +165,7 @@ div.blur {
 	z-index:-9;
 	position:sticky;
 	background-color:#80808099;
-    width:100%
+    width:100%;
     height:100%;
 
 }
@@ -173,13 +173,13 @@ div.mobilepop {
 	background-color:#839684;
 	opacity:0%;
 	z-index:-10;
-	position:sticky
+	position:sticky;
 	top:10%;
 	left:5%;
 	width:90%;
 	height:80%;
 	boarder: 2px solid pink; 
-	box-shadow: 1% 2% #eea5b0c4:
+	box-shadow: 1% 2% #eea5b0c4;
 	font-size:3vw;
 	color:#885d7ff0;
 	border-radius: 20% 25%;
