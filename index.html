@@ -1,175 +1,182 @@
-<html><head>
-	<!-- redirect to mobile site js-->
-	<script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M29HDCL"></script><script type="text/javascript" async="" src="https://www.google-analytics.com/analytics.js"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M29HDCL"></script><script type="text/javascript">
-      <!--
-      if (screen.width <= 699) {
-      document.location = "https://mobile.blrocky.com";
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="description" content="Barely Legal Rocky Horror shadow cast — Bay Area updates and socials." />
+  <title>BL Rocky — Greetings</title>
+  <style>
+    :root {
+      --bg: #0b0b0f;
+      --card: rgba(255,255,255,.06);
+      --text: rgba(255,255,255,.92);
+      --muted: rgba(255,255,255,.70);
+      --accent: #ff2a4e;
+      --ring: rgba(255,42,78,.35);
+    }
+
+    * { box-sizing: border-box; }
+    html, body { height: 100%; }
+    body {
+      margin: 0;
+      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
+      background:
+        radial-gradient(900px 500px at 50% -10%, rgba(255,42,78,.22), transparent 60%),
+        radial-gradient(700px 450px at 10% 105%, rgba(255,255,255,.08), transparent 55%),
+        var(--bg);
+      color: var(--text);
+      display: grid;
+      place-items: center;
+      padding: 24px;
+    }
+
+    .wrap {
+      width: min(720px, 100%);
+      text-align: center;
+    }
+
+    .card {
+      background: var(--card);
+      border: 1px solid rgba(255,255,255,.10);
+      border-radius: 18px;
+      padding: clamp(18px, 4vw, 34px);
+      backdrop-filter: blur(10px);
+      box-shadow: 0 18px 60px rgba(0,0,0,.45);
+    }
+
+    .logo {
+      display: block;
+      margin: 0 auto 18px;
+      width: min(320px, 72%);
+      height: auto;
+      filter: drop-shadow(0 10px 30px rgba(255,42,78,.18));
+    }
+
+    h1 {
+      margin: 0 0 10px;
+      font-size: clamp(20px, 2.8vw, 28px);
+      letter-spacing: .2px;
+    }
+
+    p {
+      margin: 0;
+      font-size: clamp(16px, 2.2vw, 18px);
+      line-height: 1.55;
+      color: var(--muted);
+    }
+
+    .socials {
+      display: flex;
+      gap: 12px;
+      justify-content: center;
+      flex-wrap: wrap;
+      margin-top: 22px;
+    }
+
+    .icon-btn {
+      display: inline-flex;
+      align-items: center;
+      justify-content: center;
+      gap: 10px;
+      padding: 12px 14px;
+      border-radius: 999px;
+      border: 1px solid rgba(255,255,255,.14);
+      background: rgba(0,0,0,.22);
+      color: var(--text);
+      text-decoration: none;
+      transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
+      outline: none;
+      min-width: 56px;
+    }
+
+    .icon-btn svg {
+      width: 22px;
+      height: 22px;
+      fill: currentColor;
+    }
+
+    .icon-btn:focus-visible {
+      box-shadow: 0 0 0 4px var(--ring);
+      border-color: rgba(255,42,78,.55);
+    }
+
+    @media (hover: hover) {
+      .icon-btn:hover {
+        transform: translateY(-1px);
+        border-color: rgba(255,42,78,.55);
+        box-shadow: 0 10px 30px rgba(0,0,0,.35);
       }
-      //-->
-      </script>
-	<script language="javascript">
-<!--
-if ((navigator.userAgent.match(/iPhone/i)) || (navigator.userAgent.match(/iPod/i))) {
-   location.replace("https://mobile.blrocky.com");
-}
--->
-</script>
-	<!-- Google Tag Manager -->
-	<script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M29HDCL"></script><script async="" src="https://www.googletagmanager.com/gtm.js?id=GTM-M29HDCL"></script><script>
-		(function (w, d, s, l, i) {
-			w[l] = w[l] || [];
-			w[l].push({
-				'gtm.start': new Date().getTime(),
-				event: 'gtm.js'
-			});
-			var f = d.getElementsByTagName(s)[0],
-				j = d.createElement(s),
-				dl = l != 'dataLayer' ? '&l=' + l : '';
-			j.async = true;
-			j.src =
-				'https://www.googletagmanager.com/gtm.js?id=' + i + dl;
-			f.parentNode.insertBefore(j, f);
-		})(window, document, 'script', 'dataLayer', 'GTM-M29HDCL');
-	</script>
-	<!-- End Google Tag Manager -->
-	<title>The Rocky Horror Picture Show with live cast Barely Legal in the San Francisco Bay Area</title>
-	<meta name="keywords" content="the rocky horror picture show, rocky horror, live cast Barely Legal, rhps, bay area rocky horror, rocky horror san francisco bay area, rhps san francisco bay area">
-	<meta name="description" content="See Rocky Horror in the San Francisco Bay Area with live cast Barely Legal.">
-	<meta name="author" content="BL Rocky">
-	<meta charset="UTF-8">
-	<link rel="shortcut icon" href="https://home.blrocky.com/images/Logo_transparent.png" type="image/x-icon">
-	<link rel="stylesheet" href="styles/malefraud.css">
-	<link rel="stylesheet" href="styles/header_boxes.css">
-	
-	<!-- Global site tag (gtag.js) - Google Analytics -->
-	<script async="" src="https://www.googletagmanager.com/gtag/js?id=UA-151245991-1"></script>
-	<script>
-		window.dataLayer = window.dataLayer || [];
+    }
 
-		function gtag() {
-			dataLayer.push(arguments);
-		}
-		gtag('js', new Date());
+    footer {
+      margin-top: 18px;
+      display: flex;
+      justify-content: center;
+    }
 
-		gtag('config', 'UA-151245991-1');
-	</script>
+    .sr-only {
+      position: absolute;
+      width: 1px;
+      height: 1px;
+      padding: 0;
+      margin: -1px;
+      overflow: hidden;
+      clip: rect(0, 0, 0, 0);
+      white-space: nowrap;
+      border: 0;
+    }
+
+    @media (prefers-reduced-motion: reduce) {
+      .icon-btn { transition: none; }
+      .icon-btn:hover { transform: none; }
+    }
+  </style>
 </head>
-<body link="red" vlink="pink" data-new-gr-c-s-check-loaded="14.1040.0" data-gr-ext-installed="">
-	<!-- Google Tag Manager (noscript) -->
-	<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-M29HDCL" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-	<!-- End Google Tag Manager (noscript) -->
-	<a href="https://home.blrocky.com/"><img class="logo" src="https://home.blrocky.com/images/Logo_Black.jpg" alt="Barely Legal Rocky Horror Logo"></a><span><p class="header">the rocky horror picture show</p></span><span><b><p class="fun"> "So much fun it's Barely Legal!"</p></b></span>
-	<!--header boxes--> <a href="http://photos.blrocky.com"><img src="images/headerbox/red.jpg" alt="" class="box boxr1" id="lf1"> </a> <div class="boxtxt boxtxtr1" id="lf1"> <div class="paragraph-Body"> <a href="http://photos.blrocky.com" title="Photos" class="header">Photos</a> </div> </div><a href="http://barelylegal.rhps.org/shows.htm"><img src="images/headerbox/orange.jpg" alt="" class="box boxr1" id="lf2"> </a> <div class="boxtxt boxtxtr1" id="lf2"> <div class="paragraph-Body"> <a href="http://barelylegal.rhps.org/shows.htm" title="Rocky Horror shows in the San Francisco Bay Area" class="header">Shows</a> </div> </div><a href="http://home.blrocky.com/theaters/3below"><img src="images/headerbox/yellow.jpg" alt="" class="box boxr1" id="lf3"> </a> <div class="boxtxt boxtxtr1" id="lf3"> <div class="paragraph-Body"> <a href="http://home.blrocky.com/theaters/3below" title="Rocky Horror in San Jose" class="header">San Jose</a></div> </div><a href="http://home.blrocky.com/theaters/twin"><img src="images/headerbox/green.jpg" alt="" class="box boxr1" id="lf4"> </a> <div class="boxtxt boxtxtr1" id="lf4"> <div class="paragraph-Body"> <a href="http://home.blrocky.com/theaters/twin" title="Rocky Horror in Albany" class="header">Albany</a></div> </div> <a href="http://join.blrocky.com"><img src="images/headerbox/cyan.jpg" alt="" class="box boxr1" id="lf5"> </a> <div class="boxtxt boxtxtr1" id="lf5"> <div class="paragraph-Body"> <a href="http://join.blrocky.com" title="Join live Rocky Horror cast Barely Legal" class="header">Join Cast</a></div> </div><a href="http://home.blrocky.com/theaters/UC"><img src="images/headerbox/blue.jpg" alt="" class="box boxr1" id="lf6"> </a> <div class="boxtxt boxtxtr1" id="lf6"> <div class="paragraph-Body"> <a href="http://home.blrocky.com/theaters/UC" title="Rocky Horror at the UC Theatre in Berkeley" class="header">Berkeley</a> </div> </div><a href="http://home.blrocky.com/theaters/Phoenix"><img src="images/headerbox/purple.jpg" alt="" class="box boxr2" id="lf1"> </a> <div class="boxtxt boxtxtr2" id="lf1"> <div class="paragraph-Body"> <a href="http://home.blrocky.com/theaters/Phoenix" title="Peteluma" class="header">Petaluma</a> </div> </div><a href="http://home.blrocky.com/about"><img src="images/headerbox/red.jpg" alt="" class="box boxr2" id="lf2"> </a> <div class="boxtxt boxtxtr2" id="lf2"> <div class="paragraph-Body"> <a href="http://home.blrocky.com/about" title="About Rocky Horror Picture Show cast Barely Legal" class="header">About Us</a></div> </div><a href="http://home.blrocky.com/birthdays"><img src="images/headerbox/orange.jpg" alt="" class="box boxr2" id="lf3"> </a> <div class="boxtxt boxtxtr2" id="lf3"> <div class="paragraph-Body"> <a href="http://home.blrocky.com/birthdays" title="Celebrate your birthday at Rocky Horror" class="header">Birthdays</a> </div> </div><a href="https://home.blrocky.com/rules"><img src="images/headerbox/yellow.jpg" alt="" class="box boxr2" id="lf4"> </a> <div class="boxtxt boxtxtr2" id="lf4"> <div class="paragraph-Body"> <a href="https://home.blrocky.com/rules" title="Rocky Horror Rules" class="header">Rules</a> </div> </div><a href="/wear"><img src="images/headerbox/green.jpg" alt="" class="box boxr2" id="lf5"> </a> <div class="boxtxt boxtxtr2" id="lf5" style="left:700px;"> <div class="> <div class=" paragraph-body"=""> <a href="/wear" title="Wondering what to wear to The Rocky Horror Picture Show in the San Francisco Bay Area?" class="header">What 2 Wear</a></div> </div><a href="/press"><img src="images/headerbox/cyan.jpg" alt="" class="box boxr2" id="lf6"> </a> <div class="boxtxt boxtxtr2" id="lf6"> <div class="paragraph-Body"> <a href="/press" title="Rocky Horror press about Barely Legal " class="header">Press</a> </div> </div>
-		<div class="paragraph Free_Form" style="line-height: 17px; margin-bottom: 0px; margin-top: 50px; padding-bottom: 16px; padding-top: 0pt; text-align: left; ">
-			<span style="color: #ffffff; font-weight: bold; line-height: 21px; "><br><br>
-				
-					
-						
-                        <h1>Rocky Horror in the San Francisco Bay Area</h1>
-					
-				
-			</span>
-			
-		
-			
-            <p style="color: white; font-family: 'Helvetica-Bold', 'Helvetica', 'Arial', 'sans-serif'; font-size: 26px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 30px; opacity: 1.00; text-transform: none; ">
-		
-                            Saturday Feb 28th 2026 At 11:30pm
-							<br> 	
-							At the <a href="https://home.blrocky.com/theaters/3below/">3 Below </a> in San Jose
-							<br>
-							<br>
-							</p>
-<a href="http://3Below.vbotickets.com/event/the_rocky_horror_picture_show/182723" title="" target="_blank"><img class="ticket" src="/images/tickets.jpg" alt="Buy Ticket"></a> <br>
-			<br><br>
-					<p style="color: white; font-family: 'Helvetica-Bold', 'Helvetica', 'Arial', 'sans-serif'; font-size: 26px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 30px; opacity: 1.00; text-transform: none; ">
-		
-						Saturday  Mar 28th 2026 At 8pm
-							<br> 	
-							At the <a href="https://maps.app.goo.gl/dobeXcPCdNZNqenh7"> Delta Cinema</a> in Brentwood
-							<br>
-							<br>
-							</p>
-<a href="https://app.formovietickets.com/newrtn/shows/pickSeats?showId=3941" title="" target="_blank"><img class="ticket" src="/images/tickets.jpg" alt="Buy Ticket"></a> <br>
-			<br><br>
-			<
-          	<!--<p style="color: white; font-family: 'Helvetica-Bold', 'Helvetica', 'Arial', 'sans-serif'; font-size: 26px; font-style: normal; font-variant: normal; font-weight: bold; letter-spacing: 0; line-height: 30px; opacity: 1.00; text-transform: none; ">
-		
-						
-		
-				 Saturday Oct 31st 2026 At 8pm
-							<br> 	
-	
-							At the <a href="http://home.blrocky.com/theaters/UC">UC </a> in Berkeley
-							<br><br>
-				
-				</p>
-				<a href="" title="" target="_blank"><img class="ticket" src="/images/tickets.jpg" alt="Buy Ticket"></a> -->
-			
-			
-			<h3 style="color:#FF7979;">Want Merch but can't make it to a show?<br>Check out our online shop:</h3>
-			<a href="https://blrhps.square.site/"><img width="120px" src="https://home.blrocky.com/shoplogo.webp"> </a>
-			
-			
-			
-			
-			<span><a href="https://www.facebook.com/blrocky/" target="_blank"></a></span><p></p><a href="https://www.facebook.com/blrocky/" target="_blank"><p class="fb">blrocky on Facebook</p></a><a href="https://www.facebook.com/blrocky/" target="_blank"> </a><br> <br> <br><br> <br> <br><br> <br> <br>
-								<span><a href="https://www.instagram.com/BLRHPS/" target="_blank"><p class="insta">blrhps on instagram</p></a></span><br> <br> <br><br> <br> <br>
-							
-									
+<body>
+  <main class="wrap">
+    <section class="card" role="region" aria-label="BL Rocky greeting">
+      <!-- Put your logo file at: /assets/logo.png (or change this path) -->
+      <img class="logo" src="https://home.blrocky.com/images/Logo_transparent.png" alt="BL Rocky logo" />
 
+      <h1>Greetings:</h1>
+      <p>
+        We are saddened after the closing of the South Bay’s home for Rocky Horror for decades The 3 Below.
+        BL Rocky will continue to bring a premier Rocky Horror shadow cast performance to the Bay Area.
+        Follow us on social media for updates.
+      </p>
 
-								
+      <nav class="socials" aria-label="Social links">
+        <!-- Replace href="#" with your real URLs -->
+        <a class="icon-btn" href="https://facebook.com/blrocky" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.25c-1.24 0-1.62.77-1.62 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/>
+          </svg>
+        </a>
 
-										
-											<span style="color: #ff0000; font-family:'CS'; font-size: 30px; font-weight: bold; line-height: 41px; align=left"><br><br>
-												
-														<h2> Welcome to the home of live Rocky Horror cast Barely Legal</h2>
-													
-											</span>
-											
-										
-										
-												<div class="paragraph Free_Form" style="line-height: 30px; margin-bottom: 0px; margin-top: 0px; padding-bottom: 14px; text-align: left; ">
-													<p style="color: #ff0000; font-family: 'CS'; font-size: 20px; font-weight: bold; line-height: 16px; opacity: 1.00; ">Barely
-														Legal is the San Francisco Bay Area's premier Rocky Horror Picture Show cast!</p>
-												</div>
-												
-											
-											<br>
+        <a class="icon-btn" href="https://www.instagram.com/blrhps" target="_blank" rel="noopener noreferrer" aria-label ="Instagram">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.75-2.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z"/>
+          </svg>
+        </a>
 
-											<br>
-											<br>
+        <a class="icon-btn" href="https://www.tiktok.com/@blrhps" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M16 3c.6 3.4 2.7 5.6 6 5.9V12c-2.3-.1-4.2-.9-6-2.4v6.2c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6c.4 0 .8 0 1.2.1V13c-.4-.2-.8-.3-1.2-.3-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V3h3z"/>
+          </svg>
+        </a>
+      </nav>
 
-											<iframe src="https://home.blrocky.com/Carro.html" height="400px" width="600px"></iframe>
-
-
-
-
-
-
-
-
-
-
-											<br>
-											<br>
-											<br><br>
-											<!--<img src="https://home.blrocky.com/images/UCGroup.jpg" width="900px"><br>-->
-
-
-											<p style="font-family: df; color: red;"> We brought Rocky Horror back to the UC Theatre in Berkeley!</p>
-
-
-
-
-											
-										<br><br>
-                                            <a href="mailto:barelylegalrocky@gmail.com" style="send us an email!"><img style="position: absolute; left:500px;" src="https://home.blrocky.com/images/emal.png" height="200px" width="200px"></a>
-					</div>				
-		
-
-
-
-<grammarly-desktop-integration data-grammarly-shadow-root="true"></grammarly-desktop-integration>
-</body></html>
+      <footer aria-label="Contact">
+        <!-- Replace with your real email -->
+        <a class="icon-btn" href="mailto:barelylegalrocky@gmail.com" aria-label="Email BL Rocky" title="Email us">
+          <span class="sr-only">Email us</span>
+          <!-- Email / envelope icon -->
+          <svg viewBox="0 0 24 24" aria-hidden="true">
+            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5.33L4 8.2V6l8 5.33L20 6v2.2z"/>
+          </svg>
+        </a>
+      </footer>
+    </section>
+  </main>
+</body>
+</html>
