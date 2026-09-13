@@ -1,182 +1,23 @@
 <!doctype html>
 <html lang="en">
 <head>
-  <meta charset="utf-8" />
-  <meta name="viewport" content="width=device-width, initial-scale=1" />
-  <meta name="description" content="Barely Legal Rocky Horror shadow cast — Bay Area updates and socials." />
-  <title>BL Rocky — Greetings</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta http-equiv="refresh" content="5; url=https://blrocky.com/">
+  <title>BL Rocky has moved</title>
   <style>
-    :root {
-      --bg: #0b0b0f;
-      --card: rgba(255,255,255,.06);
-      --text: rgba(255,255,255,.92);
-      --muted: rgba(255,255,255,.70);
-      --accent: #ff2a4e;
-      --ring: rgba(255,42,78,.35);
-    }
-
-    * { box-sizing: border-box; }
-    html, body { height: 100%; }
-    body {
-      margin: 0;
-      font-family: ui-sans-serif, system-ui, -apple-system, Segoe UI, Roboto, Arial, "Apple Color Emoji", "Segoe UI Emoji";
-      background:
-        radial-gradient(900px 500px at 50% -10%, rgba(255,42,78,.22), transparent 60%),
-        radial-gradient(700px 450px at 10% 105%, rgba(255,255,255,.08), transparent 55%),
-        var(--bg);
-      color: var(--text);
-      display: grid;
-      place-items: center;
-      padding: 24px;
-    }
-
-    .wrap {
-      width: min(720px, 100%);
-      text-align: center;
-    }
-
-    .card {
-      background: var(--card);
-      border: 1px solid rgba(255,255,255,.10);
-      border-radius: 18px;
-      padding: clamp(18px, 4vw, 34px);
-      backdrop-filter: blur(10px);
-      box-shadow: 0 18px 60px rgba(0,0,0,.45);
-    }
-
-    .logo {
-      display: block;
-      margin: 0 auto 18px;
-      width: min(320px, 72%);
-      height: auto;
-      filter: drop-shadow(0 10px 30px rgba(255,42,78,.18));
-    }
-
-    h1 {
-      margin: 0 0 10px;
-      font-size: clamp(20px, 2.8vw, 28px);
-      letter-spacing: .2px;
-    }
-
-    p {
-      margin: 0;
-      font-size: clamp(16px, 2.2vw, 18px);
-      line-height: 1.55;
-      color: var(--muted);
-    }
-
-    .socials {
-      display: flex;
-      gap: 12px;
-      justify-content: center;
-      flex-wrap: wrap;
-      margin-top: 22px;
-    }
-
-    .icon-btn {
-      display: inline-flex;
-      align-items: center;
-      justify-content: center;
-      gap: 10px;
-      padding: 12px 14px;
-      border-radius: 999px;
-      border: 1px solid rgba(255,255,255,.14);
-      background: rgba(0,0,0,.22);
-      color: var(--text);
-      text-decoration: none;
-      transition: transform .12s ease, border-color .12s ease, box-shadow .12s ease;
-      outline: none;
-      min-width: 56px;
-    }
-
-    .icon-btn svg {
-      width: 22px;
-      height: 22px;
-      fill: currentColor;
-    }
-
-    .icon-btn:focus-visible {
-      box-shadow: 0 0 0 4px var(--ring);
-      border-color: rgba(255,42,78,.55);
-    }
-
-    @media (hover: hover) {
-      .icon-btn:hover {
-        transform: translateY(-1px);
-        border-color: rgba(255,42,78,.55);
-        box-shadow: 0 10px 30px rgba(0,0,0,.35);
-      }
-    }
-
-    footer {
-      margin-top: 18px;
-      display: flex;
-      justify-content: center;
-    }
-
-    .sr-only {
-      position: absolute;
-      width: 1px;
-      height: 1px;
-      padding: 0;
-      margin: -1px;
-      overflow: hidden;
-      clip: rect(0, 0, 0, 0);
-      white-space: nowrap;
-      border: 0;
-    }
-
-    @media (prefers-reduced-motion: reduce) {
-      .icon-btn { transition: none; }
-      .icon-btn:hover { transform: none; }
-    }
+    :root { color-scheme: dark; font-family: system-ui, sans-serif; }
+    body { min-height: 100vh; margin: 0; display: grid; place-items: center; background: #100b0d; color: #fff; }
+    main { width: min(34rem, calc(100% - 2rem)); text-align: center; }
+    a { display: inline-block; margin-top: 1rem; color: #ffd34e; font-weight: 700; }
   </style>
 </head>
 <body>
-  <main class="wrap">
-    <section class="card" role="region" aria-label="BL Rocky greeting">
-      <!-- Put your logo file at: /assets/logo.png (or change this path) -->
-      <img class="logo" src="https://home.blrocky.com/images/Logo_transparent.png" alt="BL Rocky logo" />
-
-      <h1>Greetings:</h1>
-      <p>
-        We are saddened after the closing of the South Bay’s home for Rocky Horror for decades The 3 Below.
-        BL Rocky will continue to bring a premier Rocky Horror shadow cast performance to the Bay Area.
-        Follow us on social media for updates.
-      </p>
-
-      <nav class="socials" aria-label="Social links">
-        <!-- Replace href="#" with your real URLs -->
-        <a class="icon-btn" href="https://facebook.com/blrocky" target="_blank" rel="noopener noreferrer" aria-label="Facebook">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M22 12a10 10 0 1 0-11.56 9.88v-6.99H7.9V12h2.54V9.8c0-2.5 1.49-3.88 3.77-3.88 1.09 0 2.23.2 2.23.2v2.46h-1.25c-1.24 0-1.62.77-1.62 1.56V12h2.77l-.44 2.89h-2.33v6.99A10 10 0 0 0 22 12z"/>
-          </svg>
-        </a>
-
-        <a class="icon-btn" href="https://www.instagram.com/blrhps" target="_blank" rel="noopener noreferrer" aria-label ="Instagram">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M7 2h10a5 5 0 0 1 5 5v10a5 5 0 0 1-5 5H7a5 5 0 0 1-5-5V7a5 5 0 0 1 5-5zm10 2H7a3 3 0 0 0-3 3v10a3 3 0 0 0 3 3h10a3 3 0 0 0 3-3V7a3 3 0 0 0-3-3zm-5 4a5 5 0 1 1 0 10 5 5 0 0 1 0-10zm0 2a3 3 0 1 0 0 6 3 3 0 0 0 0-6zm5.75-2.25a.75.75 0 1 1 0 1.5.75.75 0 0 1 0-1.5z"/>
-          </svg>
-        </a>
-
-        <a class="icon-btn" href="https://www.tiktok.com/@blrhps" target="_blank" rel="noopener noreferrer" aria-label="TikTok">
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M16 3c.6 3.4 2.7 5.6 6 5.9V12c-2.3-.1-4.2-.9-6-2.4v6.2c0 3.3-2.7 6-6 6s-6-2.7-6-6 2.7-6 6-6c.4 0 .8 0 1.2.1V13c-.4-.2-.8-.3-1.2-.3-1.7 0-3 1.3-3 3s1.3 3 3 3 3-1.3 3-3V3h3z"/>
-          </svg>
-        </a>
-      </nav>
-
-      <footer aria-label="Contact">
-        <!-- Replace with your real email -->
-        <a class="icon-btn" href="mailto:barelylegalrocky@gmail.com" aria-label="Email BL Rocky" title="Email us">
-          <span class="sr-only">Email us</span>
-          <!-- Email / envelope icon -->
-          <svg viewBox="0 0 24 24" aria-hidden="true">
-            <path d="M20 4H4a2 2 0 0 0-2 2v12a2 2 0 0 0 2 2h16a2 2 0 0 0 2-2V6a2 2 0 0 0-2-2zm0 4.2-8 5.33L4 8.2V6l8 5.33L20 6v2.2z"/>
-          </svg>
-        </a>
-      </footer>
-    </section>
+  <main>
+    <h1>We have moved domains</h1>
+    <p>Your browser should take you to the new BL Rocky site automatically.</p>
+    <p>If the redirect was blocked, <a href="https://blrocky.com/">click here for blrocky.com</a>.</p>
   </main>
+  <script>window.setTimeout(() => window.location.replace("https://blrocky.com/"), 5000);</script>
 </body>
 </html>
